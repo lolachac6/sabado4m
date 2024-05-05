@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    
+}
+
+
+.wrapper{
+    margin:0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1440px;
+}
+
+.fila1{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    
+    
+}
+.fila1Lista{
+    display: flex;
+    gap: 10x;
+    margin-top: 16px;
+   
+  
+}
+.btn1{
+    border-color: none;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 4px;
+    
+
+}
+.recuadro1{
+    display: inline;
+    
+}
+.recuadro1:hover .ulrecuadro1{
+    display: block;
+}
+.ulrecuadro1{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    display: none;
+    
+}
+
+.columnaLista{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
